@@ -1,0 +1,21 @@
+{
+    "name": "yann/stormtrooper",
+    "description": "Une demo de la POO",
+    "type": "project",
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bunkermaster",
+            "email": "yann.le-scouarnec@hetic.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Empire\\": "Empire/",
+            "Wanagaine\\": "Wanagaine/"
+        }
+    }
+}
